@@ -1,6 +1,8 @@
 .container{
     height:100%;
     width:100%;
+    padding:0px;
+    margin:0px;
 
 }
 .container .form-font .btn{
@@ -29,6 +31,10 @@
     display:none;
     
 }
+.fa{
+    font-size:1.3em !important;
+}
+
 #head{
     font-size: 17px;
     font-weight:700px;
@@ -49,6 +55,11 @@
     font-family:Roboto, sans-serif;
     font-style: normal;
 }
+.btn-primary:hover{
+    background-color: chartreuse;
+    color:black;    
+    font-weight: bold;
+}
 .stretched-link{
     font-size: 17px;
 }
@@ -58,9 +69,9 @@
 
 #logo img{
     position: relative;
-    width:100px;
-    height:100px;
-    left:10px;
+    width:120px;
+    height:120px;
+    left:125px;
 }
 body form{
     text-align: center;
@@ -85,15 +96,39 @@ form-group .form-email{
     border-radius: 0px;
     width: 25%;
 }
+
+
 /*foooter*/
-
-.grid-column{
+footer{
+    position: relative;
+    float: left;
+    left:100px ;   
+    top:200px;  
+}
+footer .row{
     float:left;
-    bottom:0px;
     position:relative;
-    margin: 20px auto 20px auto;
-    padding:auto 10px auto 10px auto;
-    left:60%;
-
     
+}
+.col-md-3{
+    width:100%;
+    padding:18px 54px 18px 54px;
+    margin:5px 18px 0px 18px; 
+    position:relative;
+    
+}
+.col-md-3 p{
+    color:black;
+    font-size: 15px;
+}
+.list-unstyled li a{
+    font-size: 17px;
+    color:black;
+}
+.payicon img{
+    position: relative;
+    float:right;
+    right:112px;
+    width:26%;
+    height:20%;
 }
