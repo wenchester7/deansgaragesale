@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <title> Loging Page</title>
@@ -44,13 +46,23 @@
                         <a href="#" class="nav-link">Contact US</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Profile</a>
+                        <a href="#" class="nav-link">
+                            <svg class="bi bi-person-fill" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/>
+                          </svg></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Search</a>
+                        <a href="#" class="nav-link">
+                            <svg class="bi bi-search" width="1.3em" height="1.3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
+                                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
+                              </svg>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Cart</a>
+                        <a href="#" class="nav-link">
+                            <span class="fa fa-shopping-cart"></span>
+                        </a>
                     </li>
                 </ul>
             
@@ -76,49 +88,68 @@
             </form>
 
             <!--fooooterr-->
-            <footer class="site-footer">
-                <div clas="wrapper">
-                    <div class="grid-column">
-                        <ul class="no-bullets">
-                            <li>
-                                <a href="#">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Refund Policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Terms of Service</a>
-                            </li>
-                        </ul>
+            <footer class="page-footer font-small indigo">
+                <div class="container text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-3 mx-auto">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Refund Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Terms of Service</a>
+                                </li>
+                            </ul>
+                        </div>    
                     </div>
-                    <div class="grid-column">
-                        <ul class="no-bullets">
-                            <li>
-                                <a href="#">Shipping Policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact US</a>
-                            </li>
-                            <li>
-                                <a href="#">Affiliate Program</a>
-                            </li>
-                        </ul>
+                    <div class="row">
+                        <div class="col-md-3 mx-auto">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">Shipping Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact US</a>
+                                </li>
+                                <li>
+                                    <a href="#">Affiliate Program</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="grid-column">
-                        <ul class="no-bullets">
-                            <li>
-                                <a href="#">Facebook</a>
-                            </li>
-                            <li>
-                                <a href="#">Instagram</a>
-                            </li>
-                            <li>
-                                <a href="#">Youtube</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <div class="row">
+                        <div class="col-md-3 mx-auto">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="#">Instagram</a>
+                                </li>
+                                <li>
+                                    <a href="#">Youtube</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="col-md-3 mx-auto">
+                            <p><span>&#169</span>2020, Dean Garage Sale<br>
+                            Powered by Dean <br/>Azat Bizhanov</p>  
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="payicon">
+                            <img src="secure.png" alt="cards">
+                        </div>    
+                    </div>    
                 </div>
+
             </footer>
+            <!--end foooter-->
         </div>
     </body>
 </html>
